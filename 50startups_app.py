@@ -9,7 +9,7 @@ tree =joblib.load('tree.apk')
 full_pipline = joblib.load('full_pipline.apk')
 
 #load the data
-startups = pd.read_csv('C:/Users/hpc/Desktop/ML/50 startups app ml/50startups.csv')
+startups = pd.read_csv('50startups.csv')
 
 #title
 st.title('50 Startups Profit Prediction')
